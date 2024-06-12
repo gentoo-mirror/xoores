@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=>=virtual/jre-1.7:* >=x11-libs/gtk+-2:2 app-crypt/libsecret dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Comprehensive database management tool, Enterprise Edition
+EAPI=7
+HOMEPAGE=https://dbeaver.com
+INHERIT=xdg
+KEYWORDS=~amd64
+LICENSE=EULA
+RDEPEND=>=virtual/jre-1.7:* >=x11-libs/gtk+-2:2 app-crypt/libsecret
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://dbeaver.com/files/24.0.0/dbeaver-ee-24.0.0-linux.gtk.x86_64-nojdk.tar.gz
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=b50346789516fe5f0efc6d60f9562ac4

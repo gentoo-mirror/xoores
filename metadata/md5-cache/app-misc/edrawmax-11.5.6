@@ -1,0 +1,15 @@
+BDEPEND=app-arch/rpm2targz
+DEFINED_PHASES=install postinst postrm prepare unpack
+DESCRIPTION=All-in-one Diagramming Tool, nice alternative to Microsoft Visio
+EAPI=8
+HOMEPAGE=https://www.edrawsoft.com/
+INHERIT=rpm xdg-utils
+IUSE=-mysql -postgres
+KEYWORDS=-* ~amd64
+LICENSE=EULA
+RDEPEND=dev-qt/qtsensors:5 dev-qt/qtserialport:5 dev-qt/designer:5 dev-qt/qt3d:5 dev-qt/qtgamepad:5 mysql? ( dev-db/mysql ) postgres? ( dev-db/postgresql )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://download.edrawsoft.com/archives/edrawmax_11.5.6_en_x86_64.rpm -> edrawmax-11.5.6.rpm
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=e3f1c99b2f1d03f4e2108466e32db16c

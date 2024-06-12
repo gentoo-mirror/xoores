@@ -1,0 +1,14 @@
+BDEPEND=dev-debug/gdb dev-util/scanmem dev-libs/distorm3 dev-python/PyQt6 dev-python/pygdbmi dev-python/keyboard dev-python/pygobject dev-util/intltool >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-debug/gdb dev-util/scanmem dev-libs/distorm3 dev-python/PyQt6 dev-python/pygdbmi dev-python/keyboard dev-python/pygobject dev-util/intltool
+DESCRIPTION=Reverse engineering tool for linux games
+EAPI=8
+HOMEPAGE=https://github.com/korcankaraokcu/PINCE
+INHERIT=git-r3 wrapper
+KEYWORDS=~amd64
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-debug/gdb dev-util/scanmem dev-libs/distorm3 dev-python/PyQt6 dev-python/pygdbmi dev-python/keyboard dev-python/pygobject dev-util/intltool
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=580400878607e792ee0568a125b95210

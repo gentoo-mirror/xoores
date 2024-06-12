@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=sys-kernel/dracut sys-boot/efibootmgr app-crypt/sbsigntools app-arch/cpio sys-apps/util-linux
+DESCRIPTION=Rewrite of Sakakis buildkernel for creating secureboot EFI kernel with LUKS and LVM
+EAPI=8
+HOMEPAGE=https://gitlab.com/Xoores/buildkernel-next
+INHERIT=git-r3
+LICENSE=Unlicense
+PROPERTIES=live
+RDEPEND=sys-kernel/dracut sys-boot/efibootmgr app-crypt/sbsigntools app-arch/cpio sys-apps/util-linux
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=cebc84f35a80b62021bff29a6f1a4779

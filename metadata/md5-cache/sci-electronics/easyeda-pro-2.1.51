@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=A powerful and versatile slicer
+EAPI=8
+HOMEPAGE=https://easyeda.com
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://image.easyeda.com/files/easyeda-pro-linux-x64-2.1.51.zip -> easyeda-pro-2.1.51.zip
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=4829218b3cac0a4438a334bcb2b0824c

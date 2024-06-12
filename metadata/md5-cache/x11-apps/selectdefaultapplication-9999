@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Define default applications on Linux in a sane way
+EAPI=8
+HOMEPAGE=https://github.com/sandsmark/selectdefaultapplication
+INHERIT=git-r3 qmake-utils
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=x11-themes/hicolor-icon-theme
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_md5_=d276a885faa6e61a27f11822a72e7e19
