@@ -1,4 +1,6 @@
 app-benchmarks/glmark2 2021.12: Opengl test suite
+app-emulation/qemu-stealth 8.2.3: QEMU + Kernel-based Virtual Machine userland tools
+app-misc/chameleonultragui 9999: A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
 app-misc/edrawmax 11.5.6 13.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
 app-misc/imhex 1.28.0 1.30.1: A hex editor for reverse engineers, programmers, and eyesight
 app-misc/lxi-tools 2.1: Tools that enables control of LXI compatible instruments
@@ -15,6 +17,7 @@ dev-cpp/cpprest 2.10.18: REST SDK using an asynchronous C++ API design
 dev-db/datagrip 2021.3.4: Database IDE that is tailored to suit the specific needs of professional SQL developers
 dev-db/dbeaver-ee 22.3.0 23.3.0 24.0.0: Comprehensive database management tool, Enterprise Edition
 dev-db/sqldeveloper 21.2.1.204.1703: Oracle SQL Developer is a graphical tool for database development
+dev-embedded/jlink 7.96l: Tools for Segger J-Link JTAG adapters
 dev-lang/rust 1.69.0-r1: Systems programming language from Mozilla
 dev-libs/corecrypto 9999: Apple's implementation of low-level cryptographic primitives
 dev-libs/libevent 2.1.12-r1: Library to execute a function when a specific event occurs on a file descriptor
@@ -25,6 +28,7 @@ dev-python/aiomysql 0.2.0: aiomysql is a library for accessing a MySQL database 
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
 dev-util/clion 2023.3.4: A complete toolset for C and C++ development
+dev-util/ghidra-bin 10.0.2: A software reverse engineering (SRE) suite of tools developed by NSA
 dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.3.1 5.3.1c: All-in-one terminal, sniffer and protocol analyzer
 dev-util/maskromtool 2023.07.20 9999: Little CAD tool for taking photographs of a mask ROMs and extracting the bits
@@ -41,9 +45,11 @@ media-libs/clutter 1.26.4-r1: Clutter is a library for creating graphical user i
 media-plugins/calf 0.90.3-r1: A set of open source instruments and effects for digital audio workstations
 media-plugins/live 2021.08.24: Libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 media-sound/helvum 0.3.2: Helvum is a GTK-based patchbay for pipewire, inspired by the JACK tool catia.
+media-video/lightworks 2022.2-r1: Lightworks is the fastest, most accessible and focused NLE in the industry
 net-dialup/ppp 2.5.0-r3: Point-to-Point Protocol (PPP)
 net-im/purple-googlechat 0_p20220616: Hangouts GoogleChat for libpurple
 net-libs/libssh2 1.11.0-r1: Library implementing the SSH2 protocol
+net-misc/netproc 0.6.2: Tool to monitor network traffic based on processes
 net-misc/yt-dlp 2021.08.10 2021.09.02 2021.09.25: youtube-dl fork based on the now inactive youtube-dlc
 net-proxy/burpsuite-pro 2024.3.1.4: Interactive proxy for attacking and debugging web applications
 net-vpn/openvpn 2.6.4: Robust and highly flexible tunneling application compatible with many OSes
@@ -64,4 +70,5 @@ x11-misc/libinput-gestures 2.72 2.74: Actions gestures on your touchpad using li
 x11-misc/multibar 9999: A fast and easy-to-use tool for creating status bars, fork of Polybar
 x11-misc/notify-send-py 1.2.7: A python script for sending desktop notifications from the shell
 x11-misc/xfe 1.44: MS-Explorer-like minimalist file manager for X
+x11-misc/xsecurelock 1.8.0 1.9.0: X11 screen lock utility with security in mind
 x11-plugins/x11-emoji-picker 0.14.0: A dialog / emoji picker inspired by the Windows 10 emoji picker

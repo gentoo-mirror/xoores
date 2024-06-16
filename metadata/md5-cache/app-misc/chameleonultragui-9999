@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=app-arch/zstd
+DESCRIPTION=A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
+EAPI=8
+HOMEPAGE=https://chameleonultragui.dev
+KEYWORDS=~amd64
+LICENSE=GPL-3.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://nightly.link/GameTec-live/ChameleonUltraGUI/workflows/build-app/main/linux-debian.zip
+_md5_=edef5d195ae60582d4d22f2ce97b3f4a

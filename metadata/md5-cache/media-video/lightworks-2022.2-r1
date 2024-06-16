@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=dev-libs/openssl dev-libs/glib dev-libs/libedit dev-libs/atk dev-libs/expat dev-libs/libffi sys-apps/dbus virtual/udev x11-libs/pango x11-libs/gdk-pixbuf x11-libs/cairo x11-libs/pixman x11-libs/gtk+ media-libs/libjpeg-turbo gnome-extra/libgsf media-libs/libpng virtual/jpeg media-libs/tiff >=media-libs/freetype-2 media-libs/fontconfig media-libs/glu media-libs/mesa media-libs/portaudio[jack] >=media-gfx/nvidia-cg-toolkit-3.1.0013-r2 x11-libs/libxcb x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXrender x11-libs/libXfixes x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libdrm app-accessibility/at-spi2-core !app-arch/deb2targz app-arch/unzip
+DESCRIPTION=Lightworks is the fastest, most accessible and focused NLE in the industry
+EAPI=6
+HOMEPAGE=http://www.lwks.com/
+KEYWORDS=~amd64
+LICENSE=EditShare
+RDEPEND=dev-libs/openssl dev-libs/glib dev-libs/libedit dev-libs/atk dev-libs/expat dev-libs/libffi sys-apps/dbus virtual/udev x11-libs/pango x11-libs/gdk-pixbuf x11-libs/cairo x11-libs/pixman x11-libs/gtk+ media-libs/libjpeg-turbo gnome-extra/libgsf media-libs/libpng virtual/jpeg media-libs/tiff >=media-libs/freetype-2 media-libs/fontconfig media-libs/glu media-libs/mesa media-libs/portaudio[jack] >=media-gfx/nvidia-cg-toolkit-3.1.0013-r2 x11-libs/libxcb x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXrender x11-libs/libXfixes x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libdrm app-accessibility/at-spi2-core
+SLOT=0
+SRC_URI=https://cdn.lwks.com/releases/2022.2/lightworks_2022.2_r135077.deb
+_md5_=09c3884bdb635f7ee66955ea827e4f15
