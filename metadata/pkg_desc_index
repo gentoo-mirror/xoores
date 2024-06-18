@@ -28,7 +28,7 @@ dev-python/aiomysql 0.2.0: aiomysql is a library for accessing a MySQL database 
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
 dev-util/clion 2023.3.4: A complete toolset for C and C++ development
-dev-util/ghidra-bin 10.0.2: A software reverse engineering (SRE) suite of tools developed by NSA
+dev-util/ghidra-bin 10.0.2 11.1.1: A software reverse engineering (SRE) suite of tools developed by NSA
 dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.3.1 5.3.1c: All-in-one terminal, sniffer and protocol analyzer
 dev-util/maskromtool 2023.07.20 9999: Little CAD tool for taking photographs of a mask ROMs and extracting the bits
