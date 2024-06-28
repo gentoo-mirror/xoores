@@ -17,6 +17,8 @@ dev-cpp/atkmm 2.28.2-r1 2.28.3 2.36.2-r1: C++ interface for the ATK library
 dev-cpp/cpprest 2.10.18: REST SDK using an asynchronous C++ API design
 dev-db/datagrip 2021.3.4: Database IDE that is tailored to suit the specific needs of professional SQL developers
 dev-db/dbeaver-ee 22.3.0 23.3.0 24.0.0: Comprehensive database management tool, Enterprise Edition
+dev-db/msodbcsql 18.3.3.1: Microsoft ODBC Driver for SQL Server
+dev-db/mssql-tools 18.2.1.1: Microsoft SQL Server Tools for Linux
 dev-db/sqldeveloper 21.2.1.204.1703: Oracle SQL Developer is a graphical tool for database development
 dev-embedded/jlink 7.96l: Tools for Segger J-Link JTAG adapters
 dev-lang/rust 1.69.0-r1: Systems programming language from Mozilla
