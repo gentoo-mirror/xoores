@@ -32,6 +32,8 @@ dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
 dev-util/clion 2023.3.4: A complete toolset for C and C++ development
+dev-util/dart-sass 1.77.5: The reference implementation of Sass, written in Dart.
+dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/ghidra-bin 10.0.2 11.1.1: A software reverse engineering (SRE) suite of tools developed by NSA
 dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.3.1 5.3.1c: All-in-one terminal, sniffer and protocol analyzer
@@ -40,7 +42,7 @@ dev-util/mplab-x 6.20: MPLAB X Integrated Development Environment (IDE) from Mic
 dev-util/pycharm-professional 2021.3.1 2023.1.2: Intelligent Python IDE with unique code assistance and analysis
 dev-util/reveng 3.0.5: Arbitrary-precision CRC calculator and algorithm finder
 games-simulation/openrct2 0.4.5: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
-gui-apps/ags 1.3.1 1.4.0: A customizable and extensible shell
+gui-apps/ags 1.4.0 1.8.2: A customizable and extensible shell
 gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with customizability in mind
 gui-wm/hyprland 0.29.1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-gfx/gimp 2.10.32-r1 2.99.10-r2 2.99.12-r1 9999: GNU Image Manipulation Program
