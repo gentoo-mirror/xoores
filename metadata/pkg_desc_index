@@ -31,6 +31,7 @@ dev-python/aiomysql 0.2.0: aiomysql is a library for accessing a MySQL database 
 dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
+dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/clion 2023.3.4: A complete toolset for C and C++ development
 dev-util/dart-sass 1.77.5: The reference implementation of Sass, written in Dart.
 dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
@@ -62,7 +63,7 @@ net-vpn/openvpn 2.6.4: Robust and highly flexible tunneling application compatib
 net-vpn/snxwrapper 0.1.1 0.1.4: Tool created for effortless and automated connection to CheckPoint's SNX VPN.
 net-wireless/gnuradio 3.10.3.0 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gqrx 2.15.9 9999: Software defined radio receiver powered by GNU Radio and Qt
-net-wireless/gr-osmosdr 0.2.3 9999: GNU Radio source block for OsmoSDR and rtlsdr and hackrf
+net-wireless/gr-osmosdr 9999: GNU Radio source block for OsmoSDR and rtlsdr and hackrf
 net-wireless/sdrpp 9999: a cross-platform SDR software with the aim of being bloat free and simple to use
 net-wireless/soapybladerf 0.4.1: Soapy SDR plugin for the Blade RF
 sci-electronics/easyeda-pro 2.1.51: A powerful and versatile slicer
