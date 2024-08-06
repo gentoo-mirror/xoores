@@ -10,5 +10,5 @@ RDEPEND=dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 dev-qt/qtcore:5
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://tibbo.com/downloads/archive/ioninja/.internal/prerelease/ioninja-5.3.1-c-linux-.tar.xz -> ioninja-5.3.1c.tar.xz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=93f06f9036767f62b89acdcb63653471
