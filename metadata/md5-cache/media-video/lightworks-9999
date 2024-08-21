@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=dev-libs/openssl dev-libs/glib dev-libs/libedit dev-libs/atk dev-libs/expat dev-libs/libffi sys-apps/dbus virtual/udev x11-libs/pango x11-libs/gdk-pixbuf x11-libs/cairo x11-libs/pixman x11-libs/gtk+ media-libs/libjpeg-turbo gnome-extra/libgsf media-libs/libpng virtual/jpeg media-libs/tiff >=media-libs/freetype-2 media-libs/fontconfig media-libs/glu media-libs/mesa media-libs/portaudio[jack] media-sound/sndio >=media-gfx/nvidia-cg-toolkit-3.1.0013-r2 x11-libs/libxcb x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXrender x11-libs/libXfixes x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libdrm app-accessibility/at-spi2-core !app-arch/deb2targz app-arch/unzip
+DESCRIPTION=Lightworks is the fastest, most accessible and focused NLE in the industry
+EAPI=8
+HOMEPAGE=http://www.lwks.com/
+INHERIT=wrapper desktop
+KEYWORDS=**
+LICENSE=EditShare
+RDEPEND=dev-libs/openssl dev-libs/glib dev-libs/libedit dev-libs/atk dev-libs/expat dev-libs/libffi sys-apps/dbus virtual/udev x11-libs/pango x11-libs/gdk-pixbuf x11-libs/cairo x11-libs/pixman x11-libs/gtk+ media-libs/libjpeg-turbo gnome-extra/libgsf media-libs/libpng virtual/jpeg media-libs/tiff >=media-libs/freetype-2 media-libs/fontconfig media-libs/glu media-libs/mesa media-libs/portaudio[jack] media-sound/sndio >=media-gfx/nvidia-cg-toolkit-3.1.0013-r2 x11-libs/libxcb x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXrender x11-libs/libXfixes x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libdrm app-accessibility/at-spi2-core
+SLOT=0
+SRC_URI=https://25893642.fs1.hubspotusercontent-eu1.net/hubfs/25893642/Lightworks%20Latest%20Version/lightworks_linux_deb.deb -> lightworks-9999.deb
+_eclasses_=wrapper	4a1902f969e5718126434fc35f3a0d9c	desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=6432f618504e610cbb70ded5974de5e6

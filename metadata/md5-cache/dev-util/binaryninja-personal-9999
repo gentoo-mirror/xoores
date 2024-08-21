@@ -1,0 +1,12 @@
+DEFINED_PHASES=install nofetch
+DESCRIPTION=Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
+EAPI=8
+HOMEPAGE=https://binary.ninja
+INHERIT=wrapper
+KEYWORDS=amd64 x86
+LICENSE=|| ( BinaryNinja_Personal )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=binaryninja_personal_linux.zip
+_eclasses_=wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=dc2d593e26332ae746f76b13a0fab266
