@@ -27,9 +27,16 @@ dev-libs/libgit2 1.6.4: A linkable library for Git
 dev-libs/liblxi 1.16: Simple API for communicating with LXI compatible instruments
 dev-perl/Email-Outlook-Message 0.921: Read Outlook .msg files
 dev-python/aiomysql 0.2.0: aiomysql is a library for accessing a MySQL database from the asyncio
+dev-python/appyratus 2: Collection of miscellaneous utilities and components used in basically every Gigaquads project
+dev-python/base36 0.2.0: Lightweight Python library for encoding and decoding numbers between base10 and base36
+dev-python/btrees 6.0: This package contains a set of persistent object containers built around a modified BTree data structure
+dev-python/colormath 3.0.0: Collection of miscellaneous utilities and components used in basically every Gigaquads project
 dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
+dev-python/persistent 6.0: This package contains a generic persistence implementation for Python
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
+dev-python/rapidjson 1.20: Python wrapper around rapidjson
+dev-python/ravel 2.0.1: Python's first meta-framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/binaryninja-personal 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/clion 2023.3.4: A complete toolset for C and C++ development
