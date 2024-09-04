@@ -1,9 +1,11 @@
+acct-group/keyd 0: Group for keyd
 app-benchmarks/glmark2 2021.12: Opengl test suite
 app-emulation/qemu-stealth 8.2.3: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/chameleonultragui 9999: A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
 app-misc/cyberchef-bin 10.18.9: The Cyber Swiss Army Knife in your browser
 app-misc/edrawmax 11.5.6 13.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
 app-misc/imhex 1.28.0 1.30.1 1.35.4: A hex editor for reverse engineers, programmers, and eyesight
+app-misc/keyd 2.4.3: Flexible system wide daemon which remaps keys using kernel level input primitives (evdev, uinput)
 app-misc/lxi-tools 2.1: Tools that enables control of LXI compatible instruments
 app-pda/idevicerestore 1.0.0: Restore/upgrade firmware of iOS devices
 app-pda/libimobiledevice 9999: Support library to communicate with Apple iPhone/iPod Touch devices
@@ -12,6 +14,7 @@ app-pda/libirecovery 1.1.0: Library and utility to talk to iBoot/iBSS via USB on
 app-pda/libplist 2.3.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-pda/usbmuxd 1.1.1-r1: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
 app-text/master-pdf-editor 5.7.60 5.9.35: A complete solution for viewing and editing PDF files
+app-text/mupdf 1.24.9: A lightweight PDF viewer and toolkit written in portable C
 dev-cpp/atkmm 2.28.2-r1 2.28.3 2.36.2-r1: C++ interface for the ATK library
 dev-cpp/cpprest 2.10.18: REST SDK using an asynchronous C++ API design
 dev-db/datagrip 2021.3.4: Database IDE that is tailored to suit the specific needs of professional SQL developers
@@ -35,6 +38,7 @@ dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/persistent 6.0: This package contains a generic persistence implementation for Python
 dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
+dev-python/pymupdf 1.24.9: High performance Python library for data extraction, analysis, conversion & manipulation of PDF
 dev-python/rapidjson 1.20: Python wrapper around rapidjson
 dev-python/ravel 2.0.1: Python's first meta-framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
@@ -56,6 +60,7 @@ gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with c
 gui-wm/hyprland 0.29.1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-gfx/gimp 2.10.32-r1 2.99.10-r2 2.99.12-r1 9999: GNU Image Manipulation Program
 media-gfx/lycheeslicer 5.0.2 5.1.0 5.2.2: A powerful and versatile slicer
+media-gfx/plakativ 0.5.2: Tool for rastering image across multiple pages that can then be printed, cut and glued together into a larger poster
 media-plugins/calf 0.90.3-r1: A set of open source instruments and effects for digital audio workstations
 media-plugins/live 2021.08.24: Libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 media-sound/helvum 0.3.2: Helvum is a GTK-based patchbay for pipewire, inspired by the JACK tool catia.
