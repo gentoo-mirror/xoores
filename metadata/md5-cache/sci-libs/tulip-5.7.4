@@ -1,0 +1,16 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=doc? ( dev-python/sphinx app-text/doxygen ) python? ( dev-lang/python ) || ( >=sys-devel/gcc-4.8.1 >=sys-devel/clang-3.3 ) >=dev-build/cmake-3.1 >=dev-qt/qtbase-5.6 >=media-libs/glew-1.4 >=dev-libs/yajl-2.0 virtual/opengl media-libs/qhull dev-libs/quazip dev-util/cppunit media-libs/libpng virtual/jpeg media-libs/freetype sys-libs/zlib
+DESCRIPTION=Information visualization framework dedicated to the analysis and visualization of relational data
+EAPI=8
+HOMEPAGE=https://tulip.labri.fr/site/
+INHERIT=cmake
+IUSE=python doc -test
+KEYWORDS=~*
+LICENSE=LGPL-3
+RDEPEND=doc? ( dev-python/sphinx app-text/doxygen ) python? ( dev-lang/python ) || ( >=sys-devel/gcc-4.8.1 >=sys-devel/clang-3.3 ) >=dev-build/cmake-3.1 >=dev-qt/qtbase-5.6 >=media-libs/glew-1.4 >=dev-libs/yajl-2.0 virtual/opengl media-libs/qhull dev-libs/quazip dev-util/cppunit media-libs/libpng virtual/jpeg media-libs/freetype sys-libs/zlib
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://master.dl.sourceforge.net/project/auber/tulip/tulip-5.7.4/tulip-5.7.4_src.tar.gz?viasf=1 -> tulip-5.7.4.tar.gz
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_md5_=05b89737c24ca82d9c3a8eb6fae7a300
