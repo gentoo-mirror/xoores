@@ -8,5 +8,5 @@ LICENSE=MPLAB
 RESTRICT=bindist splitdebug fetch
 SLOT=0
 SRC_URI=https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/MPLABX-v6.20-linux-installer.tar
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d
 _md5_=38b2b88aeff698bff57cc67b580a4bd8

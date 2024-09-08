@@ -8,5 +8,5 @@ LICENSE=|| ( BinaryNinja_Free )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://cdn.binary.ninja/installers/binaryninja_free_linux.zip
-_eclasses_=wrapper	4a1902f969e5718126434fc35f3a0d9c
+_eclasses_=wrapper	8814ba474de61a773949805b4d85007d
 _md5_=ef5221113ff65423960f4a48dd1fd094
