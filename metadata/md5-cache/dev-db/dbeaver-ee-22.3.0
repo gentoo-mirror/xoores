@@ -10,5 +10,5 @@ RDEPEND=>=virtual/jre-1.7:* >=x11-libs/gtk+-2:2 app-crypt/libsecret
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://dbeaver.com/files/22.3.0/dbeaver-ee-22.3.0-linux.gtk.x86_64-nojdk.tar.gz
-_eclasses_=xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	8d7d90c01b1b1c2602dab6fc6b177097
+_eclasses_=xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	854eae304447322625df5991e20ed18f
 _md5_=b50346789516fe5f0efc6d60f9562ac4
