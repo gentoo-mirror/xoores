@@ -91,5 +91,4 @@ x11-misc/libinput-gestures 2.72 2.74: Actions gestures on your touchpad using li
 x11-misc/multibar 9999: A fast and easy-to-use tool for creating status bars, fork of Polybar
 x11-misc/notify-send-py 1.2.7: A python script for sending desktop notifications from the shell
 x11-misc/xfe 1.44: MS-Explorer-like minimalist file manager for X
-x11-misc/xsecurelock 1.8.0 1.9.0: X11 screen lock utility with security in mind
 x11-plugins/x11-emoji-picker 0.14.0: A dialog / emoji picker inspired by the Windows 10 emoji picker
