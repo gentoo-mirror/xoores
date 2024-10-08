@@ -9,5 +9,5 @@ LICENSE=EditShare
 RDEPEND=dev-libs/openssl dev-libs/glib dev-libs/libedit dev-libs/atk dev-libs/expat dev-libs/libffi sys-apps/dbus virtual/udev x11-libs/pango x11-libs/gdk-pixbuf x11-libs/cairo x11-libs/pixman x11-libs/gtk+ media-libs/libjpeg-turbo gnome-extra/libgsf media-libs/libpng virtual/jpeg media-libs/tiff >=media-libs/freetype-2 media-libs/fontconfig media-libs/glu media-libs/mesa media-libs/portaudio[jack] media-sound/sndio >=media-gfx/nvidia-cg-toolkit-3.1.0013-r2 x11-libs/libxcb x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXext x11-libs/libXi x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXrender x11-libs/libXfixes x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libdrm app-accessibility/at-spi2-core
 SLOT=0
 SRC_URI=https://25893642.fs1.hubspotusercontent-eu1.net/hubfs/25893642/Lightworks%20Latest%20Version/lightworks_linux_deb.deb -> lightworks-9999.deb
-_eclasses_=wrapper	8814ba474de61a773949805b4d85007d	desktop	56973babb9c5f19cab0eeb53ece644c6
+_eclasses_=wrapper	11a2a3bd712784986679b60a0cab34a0	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=6432f618504e610cbb70ded5974de5e6

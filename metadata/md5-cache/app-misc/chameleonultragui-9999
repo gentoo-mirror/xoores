@@ -9,5 +9,5 @@ LICENSE=GPL-3.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://nightly.link/GameTec-live/ChameleonUltraGUI/workflows/build-app/main/linux-debian.zip -> chameleonultragui-9999.zip
-_eclasses_=wrapper	8814ba474de61a773949805b4d85007d	desktop	56973babb9c5f19cab0eeb53ece644c6
+_eclasses_=wrapper	11a2a3bd712784986679b60a0cab34a0	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=868d273952e96260610427023f3296fe
