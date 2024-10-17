@@ -3,7 +3,7 @@ app-benchmarks/glmark2 2021.12: Opengl test suite
 app-emulation/qemu-stealth 8.2.3: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/chameleonultragui 9999: A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
 app-misc/cyberchef-bin 10.18.9: The Cyber Swiss Army Knife in your browser
-app-misc/edrawmax 11.5.6 13.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
+app-misc/edrawmax 14.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
 app-misc/imhex 1.28.0 1.30.1 1.35.4: A hex editor for reverse engineers, programmers, and eyesight
 app-misc/keyd 2.4.3: Flexible system wide daemon which remaps keys using kernel level input primitives (evdev, uinput)
 app-misc/lxi-tools 2.1: Tools that enables control of LXI compatible instruments
@@ -25,6 +25,7 @@ dev-db/sqldeveloper 21.2.1.204.1703 23.1.1.345.2114: Oracle SQL Developer is a g
 dev-embedded/jlink 7.96l: Tools for Segger J-Link JTAG adapters
 dev-lang/rust 1.69.0-r1: Systems programming language from Mozilla
 dev-libs/corecrypto 9999: Apple's implementation of low-level cryptographic primitives
+dev-libs/fbk-sdk 2020.3.7: Easily transfer content into the FBX format
 dev-libs/libevent 2.1.12-r1: Library to execute a function when a specific event occurs on a file descriptor
 dev-libs/libgit2 1.6.4: A linkable library for Git
 dev-libs/liblxi 1.16: Simple API for communicating with LXI compatible instruments
@@ -91,4 +92,5 @@ x11-misc/libinput-gestures 2.72 2.74: Actions gestures on your touchpad using li
 x11-misc/multibar 9999: A fast and easy-to-use tool for creating status bars, fork of Polybar
 x11-misc/notify-send-py 1.2.7: A python script for sending desktop notifications from the shell
 x11-misc/xfe 1.44: MS-Explorer-like minimalist file manager for X
+x11-misc/xsecurelock 1.8.0 1.9.0: X11 screen lock utility with security in mind
 x11-plugins/x11-emoji-picker 0.14.0: A dialog / emoji picker inspired by the Windows 10 emoji picker
