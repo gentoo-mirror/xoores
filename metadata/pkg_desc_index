@@ -44,7 +44,7 @@ dev-python/rapidjson 1.20: Python wrapper around rapidjson
 dev-python/ravel 2.0.1: Python's first meta-framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/binaryninja-personal 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
-dev-util/clion 2023.3.4: A complete toolset for C and C++ development
+dev-util/clion 2023.3.4 2024.2.3: A complete toolset for C and C++ development
 dev-util/dart-sass 1.77.5: The reference implementation of Sass, written in Dart.
 dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/ghidra-bin 10.0.2 11.1.1: A software reverse engineering (SRE) suite of tools developed by NSA
@@ -52,7 +52,7 @@ dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.6.0: All-in-one terminal, sniffer and protocol analyzer
 dev-util/maskromtool 2023.07.20 9999: Little CAD tool for taking photographs of a mask ROMs and extracting the bits
 dev-util/mplab-x 6.20: MPLAB X Integrated Development Environment (IDE) from Microchip
-dev-util/pycharm-professional 2021.3.1 2023.1.2: Intelligent Python IDE with unique code assistance and analysis
+dev-util/pycharm-professional 2024.2.4: Intelligent Python IDE with unique code assistance and analysis
 dev-util/reveng 3.0.5: Arbitrary-precision CRC calculator and algorithm finder
 games-simulation/openrct2 0.4.5: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
 games-util/minigalaxy 1.3.0: A simple GOG client for Linux
