@@ -12,6 +12,7 @@ app-pda/libimobiledevice 9999: Support library to communicate with Apple iPhone/
 app-pda/libimobiledevice-glue 1.0.0: Common code used by libimobiledevice project..
 app-pda/libirecovery 1.1.0: Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux
 app-pda/libplist 2.3.0: Support library to deal with Apple Property Lists (Binary & XML)
+app-pda/libtatsu 9999: Library handling the communication with Apple's Tatsu Signing Server (TSS).
 app-pda/usbmuxd 1.1.1-r1: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
 app-text/master-pdf-editor 5.7.60 5.9.35: A complete solution for viewing and editing PDF files
 app-text/mupdf 1.24.9: A lightweight PDF viewer and toolkit written in portable C
