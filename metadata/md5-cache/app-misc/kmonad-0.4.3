@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=KMonad is an advanced tool that lets you infinitely customize and extend the functionalities of almost any keyboard.
+EAPI=8
+HOMEPAGE=https://github.com/kmonad/kmonad
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.3
+SRC_URI=https://github.com/kmonad/kmonad/archive/refs/tags/0.4.3.tar.gz -> kmonad-0.4.3.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=3b518dbb9e75144c08e8eb4131516460
