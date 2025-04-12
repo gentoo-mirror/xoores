@@ -10,5 +10,5 @@ LICENSE=GPL-3+
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/EionRobb/purple-googlechat/archive/dfdd9c9a428b89e2982814a9c82e3dde117be84f.tar.gz -> purple-googlechat-0_p20220616.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
 _md5_=64bcaba0dfadae01cda1e40b2a772d3d
