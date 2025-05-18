@@ -3,9 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-util/pycharm-professional:bundled-jdk - Use bundled jdk
-media-gfx/gimp:heif - Enable support for ISO/IEC 23008-12:2017 HEIF files
-media-gfx/gimp:jpegxl - Enable support for JPEG XL image format
-media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-plugins/calf:experimental - Enable experimental features/plugins
 media-plugins/calf:lv2 - Add support for Ladspa V2
 net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio

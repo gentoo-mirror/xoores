@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-admin/webapp-config
+DESCRIPTION=The Cyber Swiss Army Knife in your browser
+EAPI=8
+HOMEPAGE=https://github.com/gchq/CyberChef
+INHERIT=webapp
+IUSE=vhosts
+KEYWORDS=*
+LICENSE=Apache-2.0
+RDEPEND=|| ( www-servers/apache www-servers/nginx www-servers/cherokee www-servers/gatling ) app-admin/webapp-config
+RESTRICT=mirror
+SLOT=10.19.4
+SRC_URI=https://github.com/gchq/CyberChef/releases/download/v10.19.4/CyberChef_v10.19.4.zip -> cyberchef-bin-10.19.4.zip
+_eclasses_=webapp	5fa840db95fc7348dfd53b8526ed05f5
+_md5_=9d6331d3c0304bd6c882033ba9950538
