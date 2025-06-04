@@ -43,10 +43,7 @@ dev-python/colormath 3.0.0: Collection of miscellaneous utilities and components
 dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/grpcio 1.68.0: HTTP/2-based RPC framework
 dev-python/grpcio-tools 1.68.0: Protobuf code generator for gRPC
-dev-python/keyboard 0.13.5: Take full control of your keyboard with this small Python library (UNMAINTAINTED)
 dev-python/persistent 6.0: This package contains a generic persistence implementation for Python
-dev-python/pygdbmi 0.11.0.0 9999: Python (py) gdb machine interface (mi)
-dev-python/pymupdf 1.24.9 1.25.2 1.25.4: High performance Python library for data extraction, analysis, conversion & manipulation of PDF
 dev-python/rapidjson 1.20: Python wrapper around rapidjson
 dev-python/ravel 2.0.1: Python's first meta-framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
@@ -62,7 +59,6 @@ dev-util/mplab-x 6.20: MPLAB X Integrated Development Environment (IDE) from Mic
 dev-util/pycharm-professional 2024.2.4: Intelligent Python IDE with unique code assistance and analysis
 dev-util/reveng 3.0.5: Arbitrary-precision CRC calculator and algorithm finder
 games-simulation/openrct2 0.4.5: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
-games-util/minigalaxy 1.3.0 1.3.1: A simple GOG client for Linux
 gui-apps/ags 1.4.0 1.8.2: A customizable and extensible shell
 gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with customizability in mind
 gui-wm/hyprland 0.29.1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
@@ -94,7 +90,6 @@ sys-apps/fwupd 1.8.3: Aims to make updating firmware on Linux automatic, safe an
 sys-kernel/buildkernel-next 0.1.0 0.1.1 9999: Rewrite of Sakakis buildkernel for creating secureboot EFI kernel with LUKS and LVM
 x11-apps/selectdefaultapplication 9999: Define default applications on Linux in a sane way
 x11-libs/gtk+ 2.24.33-r2 3.24.34-r1: Gimp ToolKit +
-x11-misc/input-remapper 2.0.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/libinput-gestures 2.72 2.74 2.78: Actions gestures on your touchpad using libinput
 x11-misc/multibar 9999: A fast and easy-to-use tool for creating status bars, fork of Polybar
 x11-misc/notify-send-py 1.2.7: A python script for sending desktop notifications from the shell
