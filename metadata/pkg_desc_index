@@ -51,7 +51,7 @@ dev-util/binaryninja-personal 9999: Binary Ninja is an interactive decompiler, d
 dev-util/clion 2023.3.4 2024.2.3: A complete toolset for C and C++ development
 dev-util/dart-sass 1.77.5: The reference implementation of Sass, written in Dart.
 dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
-dev-util/ghidra-bin 10.0.2 11.1.1: A software reverse engineering (SRE) suite of tools developed by NSA
+dev-util/ghidra-bin 10.0.2 11.1.1 11.3.2: A software reverse engineering (SRE) suite of tools developed by NSA
 dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.6.0: All-in-one terminal, sniffer and protocol analyzer
 dev-util/maskromtool 2023.07.20 9999: Little CAD tool for taking photographs of a mask ROMs and extracting the bits
@@ -63,7 +63,7 @@ gui-apps/ags 1.4.0 1.8.2: A customizable and extensible shell
 gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with customizability in mind
 gui-wm/hyprland 0.29.1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-gfx/bambustudio 01.10.01.50: PC Software for BambuLab and other 3D printers
-media-gfx/bambustudio-bin 01.10.01.50 01.10.02.64 02.00.03.54: Bambu Studio is a cutting-edge, feature-rich slicing software
+media-gfx/bambustudio-bin 01.10.01.50 01.10.02.64 02.00.03.54 02.01.00.59: Bambu Studio is a cutting-edge, feature-rich slicing software (prebuilt package)
 media-gfx/lycheeslicer 5.0.2 5.1.0 5.2.2: A powerful and versatile slicer
 media-gfx/plakativ 0.5.2: Tool for rastering image across multiple pages that can then be printed, cut and glued together into a larger poster
 media-plugins/calf 0.90.3-r1: A set of open source instruments and effects for digital audio workstations
