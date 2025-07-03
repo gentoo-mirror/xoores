@@ -4,6 +4,7 @@ app-editors/neovim 0.10.2: Vim-fork focused on extensibility and agility
 app-emulation/qemu-stealth 8.2.3: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/chameleonultragui 9999: A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
 app-misc/cyberchef-bin 10.18.9 10.19.4: The Cyber Swiss Army Knife in your browser
+app-misc/dotdotgoose 1.7.0: DotDotGoose is a free, open source tool to assist with manually counting objects in images
 app-misc/edrawmax 14.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
 app-misc/imhex 1.35.4 1.36.2 1.37.4: A hex editor for reverse engineers, programmers, and eyesight
 app-misc/keyd 2.4.3: Flexible system wide daemon which remaps keys using kernel level input primitives (evdev, uinput)
@@ -18,7 +19,7 @@ app-pda/libtatsu 9999: Library handling the communication with Apple's Tatsu Sig
 app-pda/usbmuxd 1.1.1-r1: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
 app-text/master-pdf-editor 5.7.60 5.9.35: A complete solution for viewing and editing PDF files
 app-text/mupdf 1.24.9 1.25.4: A lightweight PDF viewer and toolkit written in portable C
-dev-cpp/atkmm 2.28.3 2.36.2-r1: C++ interface for the ATK library
+dev-cpp/atkmm 2.36.2-r1: C++ interface for the ATK library
 dev-cpp/cpprest 2.10.18: REST SDK using an asynchronous C++ API design
 dev-db/datagrip 2021.3.4: Database IDE that is tailored to suit the specific needs of professional SQL developers
 dev-db/dbeaver-ee 22.3.0 23.3.0 24.0.0: Comprehensive database management tool, Enterprise Edition
@@ -44,6 +45,7 @@ dev-python/dbussy 1.3: Language bindings for libdbus, for Python
 dev-python/grpcio 1.68.0: HTTP/2-based RPC framework
 dev-python/grpcio-tools 1.68.0: Protobuf code generator for gRPC
 dev-python/persistent 6.0: This package contains a generic persistence implementation for Python
+dev-python/pymupdf 1.24.9 1.25.2 1.25.4: High performance Python library for data extraction, analysis, conversion & manipulation of PDF
 dev-python/rapidjson 1.20: Python wrapper around rapidjson
 dev-python/ravel 2.0.1: Python's first meta-framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
@@ -63,8 +65,9 @@ gui-apps/ags 1.4.0 1.8.2: A customizable and extensible shell
 gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with customizability in mind
 gui-wm/hyprland 0.29.1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-gfx/bambustudio 01.10.01.50: PC Software for BambuLab and other 3D printers
-media-gfx/bambustudio-bin 01.10.01.50 01.10.02.64 02.00.03.54 02.01.00.59: Bambu Studio is a cutting-edge, feature-rich slicing software (prebuilt package)
+media-gfx/bambustudio-bin 02.01.00.59: Bambu Studio is a cutting-edge, feature-rich slicing software (prebuilt package)
 media-gfx/lycheeslicer 5.0.2 5.1.0 5.2.2: A powerful and versatile slicer
+media-gfx/orca-slicer-bin 2.3.0: G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)
 media-gfx/plakativ 0.5.2: Tool for rastering image across multiple pages that can then be printed, cut and glued together into a larger poster
 media-plugins/calf 0.90.3-r1: A set of open source instruments and effects for digital audio workstations
 media-plugins/live 2021.08.24: Libraries for standards-based RTP/RTCP/RTSP multimedia streaming
@@ -73,6 +76,7 @@ media-video/lightworks 9999: Lightworks is the fastest, most accessible and focu
 net-dialup/ppp 2.5.0-r3: Point-to-Point Protocol (PPP)
 net-im/purple-googlechat 0_p20220616: Hangouts GoogleChat for libpurple
 net-libs/libssh2 1.11.0-r1: Library implementing the SSH2 protocol
+net-libs/webkit-gtk 2.48.3-r410: Open source web browser engine
 net-misc/netproc 0.6.2: Tool to monitor network traffic based on processes
 net-proxy/burpsuite-pro 2024.3.1.4: Interactive proxy for attacking and debugging web applications
 net-vpn/openvpn 2.6.4: Robust and highly flexible tunneling application compatible with many OSes
@@ -90,6 +94,7 @@ sys-apps/fwupd 1.8.3: Aims to make updating firmware on Linux automatic, safe an
 sys-kernel/buildkernel-next 0.1.0 0.1.1 9999: Rewrite of Sakakis buildkernel for creating secureboot EFI kernel with LUKS and LVM
 x11-apps/selectdefaultapplication 9999: Define default applications on Linux in a sane way
 x11-libs/gtk+ 2.24.33-r2 3.24.34-r1: Gimp ToolKit +
+x11-misc/input-remapper 2.0.1: An easy to use tool to change the behaviour of your input devices.
 x11-misc/libinput-gestures 2.72 2.74 2.78: Actions gestures on your touchpad using libinput
 x11-misc/multibar 9999: A fast and easy-to-use tool for creating status bars, fork of Polybar
 x11-misc/notify-send-py 1.2.7: A python script for sending desktop notifications from the shell
