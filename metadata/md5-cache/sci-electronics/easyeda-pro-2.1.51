@@ -8,5 +8,5 @@ LICENSE=GPL-3+
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://image.easyeda.com/files/easyeda-pro-linux-x64-2.1.51.zip -> easyeda-pro-2.1.51.zip
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
 _md5_=4829218b3cac0a4438a334bcb2b0824c

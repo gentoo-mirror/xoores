@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/persts/DotDotGoose/archive/refs/tags/v1.7.0.tar.gz -> dotdotgoose-1.7.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
 _md5_=5a70efeee735e39ab6fcbbd984cb818b

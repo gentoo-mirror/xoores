@@ -10,5 +10,5 @@ RDEPEND=app-accessibility/at-spi2-core app-arch/bzip2 app-crypt/libmd dev-libs/e
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://mango-lychee.nyc3.digitaloceanspaces.com/LycheeSlicer-5.1.0.deb -> lycheeslicer-5.1.0.deb
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
 _md5_=2f65edf59dfc007a15d5b0a31766ad38
