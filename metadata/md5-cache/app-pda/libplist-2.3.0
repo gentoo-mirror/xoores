@@ -12,5 +12,5 @@ RDEPEND=python? ( python_targets_python3_11? ( dev-lang/python:3.11 ) )
 REQUIRED_USE=python? ( || ( python_targets_python3_11 ) )
 SLOT=0/2.0-3
 SRC_URI=https://cgit.libimobiledevice.org/libplist.git/snapshot/libplist-2.3.0.tar.bz2
-_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	601de75299d1a5fb14b475836969af0f	python-r1	0e15b2ab9cfc87d7474678201d6bca38
+_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	8a006695bc0db22490452dd06914dda5	python-r1	0e15b2ab9cfc87d7474678201d6bca38
 _md5_=73106d5843af835729fb27b250aaca66
