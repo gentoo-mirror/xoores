@@ -17,7 +17,10 @@ KEYWORDS="~amd64"
 
 RESTRICT="bindist mirror strip"
 
-RDEPEND="sys-libs/zlib"
+RDEPEND="
+	sys-libs/zlib
+	=dev-qt/qt3d-6.9.1
+	"
 
 QA_PREBUILT="*"
 

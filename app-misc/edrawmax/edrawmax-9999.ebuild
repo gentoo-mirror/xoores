@@ -14,7 +14,10 @@ inherit rpm xdg-utils
 #MY_PV=$(ver_rs 1-2 '-')
 
 #~ SRC_URI="https://download.edrawsoft.com/archives/edrawmax_en_full5371.rpm -> ${P}.rpm"
-SRC_URI="https://download.wondershare.com/prd/edrawmax_full5371.rpm -> ${P}.rpm"
+#https://download.edrawsoft.com/archives/edrawmax_en_full5371.rpm
+#https://download.edrawsoft.com/archives/edrawmax_en_full5371.rpm?_gl=1*1crn9jp*_gcl_au*NTQ4Njg0MjAzLjE3NTU4NTA5NzQ.*_ga*NTg2ODU2OTQuMTc1NTg1MDk3NA..*_ga_24WTSJBD5B*czE3NTU4NTA5NzMkbzEkZzEkdDE3NTU4NTEwOTQkajM4JGwwJGgxOTg3NTkyNDU2
+#~ SRC_URI="https://download.wondershare.com/prd/edrawmax_en_full5371.rpm -> ${P}.rpm"
+SRC_URI="https://download.edrawsoft.com/archives/edrawmax_en_full5371.deb -> ${P}.deb"
 DESCRIPTION="All-in-one Diagramming Tool, nice alternative to Microsoft Visio"
 HOMEPAGE="https://www.edrawsoft.com/"
 
@@ -42,11 +45,11 @@ RDEPEND="
 	dev-libs/nspr
 	dev-libs/nss
 	dev-libs/openssl
-	dev-qt/qtcore:5
-	dev-qt/qtgui:5
-	dev-qt/qtsvg:5
-	dev-qt/qtwidgets:5
-	dev-qt/qtxml:5
+	=dev-qt/qt3d-5.15.16
+	=dev-qt/qtgamepad-5.15.16
+	=dev-qt/qtsensors-5.15.16
+	=dev-qt/qtwebchannel-5.15.16
+	=dev-qt/qtwebengine-5.15.16_p20241115
 	media-gfx/graphite2
 	media-libs/alsa-lib
 	media-libs/fontconfig
@@ -100,7 +103,12 @@ EDRAW_OPTDIR="EdrawMax-13"
 
 
 src_unpack() {
-    rpm_src_unpack ${A}
+    #~ rpm_src_unpack ${A}
+	#~ unpack ./data.tar.xz
+	#~ unpack ./chameleonultragui*.deb
+	unpack "${A}"
+	
+	unpack ./data.tar.xz
 }
 
 src_prepare()
@@ -112,7 +120,8 @@ src_prepare()
 	# Also BE WARNED: I did not test neither of these as I don't need
 	# that functionality but feel free to test & do a pull request :)
 	if ! use mysql; then
-		rm "opt/apps/edrawmax/lib/sqldrivers/libqsqlmysql.so"
+		#~ rm "opt/apps/edrawmax/lib/sqldrivers/libqsqlmysql.so"
+		rm "opt/${EDRAW_OPTDIR}/lib/sqldrivers/libqsqlmysql.so"
 	fi
 	
 	#~ if ! use postgres; then
@@ -136,8 +145,8 @@ src_prepare()
 src_install() {
 	insinto /opt/${PN}
 	
-	#~ doins -r opt/${EDRAW_OPTDIR}/*
-	doins -r opt/apps/edrawmax/*
+	doins -r opt/${EDRAW_OPTDIR}/*
+	#~ doins -r opt/apps/edrawmax/*
 
 	fperms 755 /opt/${PN}/EdrawMax
 	fperms -R 755 /opt/${PN}/lib
