@@ -35,7 +35,7 @@ src_install() {
 
 	exeinto /opt/${PN}
 	doexe masterpdfeditor5
-	dosym /opt/${PN}/masterpdfeditor5 /opt/bin/masterpdfeditor5
+	dosym ../${PN}/masterpdfeditor5 /opt/bin/masterpdfeditor5
 
 	make_desktop_entry "masterpdfeditor5 %f" \
 		"Master PDF Editor ${PV}" /opt/${PN}/masterpdfeditor5.png \
