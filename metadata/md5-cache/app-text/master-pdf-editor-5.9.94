@@ -9,6 +9,6 @@ LICENSE=master-pdf-editor
 RDEPEND=sys-libs/glibc >=dev-qt/qtcore-5.12.9:5 >=dev-qt/qtgui-5.12.9:5 >=dev-qt/qtnetwork-5.12.9:5 >=dev-qt/qtprintsupport-5.12.9:5 >=dev-qt/qtsvg-5.12.9:5 dev-qt/qtwidgets:5 media-libs/libglvnd >=media-gfx/sane-backends-1.0
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://code-industry.net/public/master-pdf-editor-5.9.35-qt5.x86_64.tar.gz
+SRC_URI=https://code-industry.net/public/master-pdf-editor-5.9.94-qt5.x86_64.tar.gz
 _eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=4e925f91346375eece866a9f8f0fe773
+_md5_=0ded33fa595f3a7c8cdbcee15e39ecaa

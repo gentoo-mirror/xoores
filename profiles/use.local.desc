@@ -2,6 +2,20 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-qt/designer:declarative - Build the qdeclarativeview plugin
+dev-qt/linguist-tools:qml - Enable QML support in lupdate
+dev-qt/qtcore:old-kernel - Disable syscalls not available on Linux kernels older than 4.11
+dev-qt/qtgui:X - Build the XCB platform plugin and enable X11 integration
+dev-qt/qtgui:eglfs - Build the EGL Full Screen/Single Surface platform plugin
+dev-qt/qtgui:evdev - Enable support for input devices via evdev
+dev-qt/qtgui:ibus - Build the IBus input method plugin
+dev-qt/qtgui:libinput - Enable support for input devices via dev-libs/libinput
+dev-qt/qtgui:linuxfb - Enable Linux framebuffer support for embedded devices
+dev-qt/qtgui:tslib - Enable support for touchscreen devices via x11-libs/tslib
+dev-qt/qtgui:tuio - Build plugin to receive touch events over the TUIO protocol
+dev-qt/qtgui:wayland - Provide dev-qt/qtwayland to ensure Qt applications can be run as Wayland clients
+dev-qt/qtnetwork:gssapi - Enable support for GSSAPI (virtual/krb5)
+dev-qt/qtnetwork:libproxy - Use net-libs/libproxy for automatic HTTP/SOCKS proxy configuration
 dev-util/pycharm-professional:bundled-jdk - Use bundled jdk
 media-plugins/calf:experimental - Enable experimental features/plugins
 media-plugins/calf:lv2 - Add support for Ladspa V2

@@ -5,7 +5,7 @@ app-emulation/qemu-stealth 8.2.3: QEMU + Kernel-based Virtual Machine userland t
 app-misc/chameleonultragui 9999: A GUI for the Chameleon Ultra/Chameleon Lite written in Flutter for cross platform operation
 app-misc/cyberchef-bin 10.18.9 10.19.4: The Cyber Swiss Army Knife in your browser
 app-misc/dotdotgoose 1.7.0: DotDotGoose is a free, open source tool to assist with manually counting objects in images
-app-misc/edrawmax 14.0.0: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
+app-misc/edrawmax 9999: All-in-one Diagramming Tool, nice alternative to Microsoft Visio
 app-misc/imhex 1.35.4 1.36.2 1.37.4: A hex editor for reverse engineers, programmers, and eyesight
 app-misc/keyd 2.4.3: Flexible system wide daemon which remaps keys using kernel level input primitives (evdev, uinput)
 app-misc/kmonad 0.4.3: KMonad is an advanced tool that lets you infinitely customize and extend the functionalities of almost any keyboard.
@@ -17,7 +17,7 @@ app-pda/libirecovery 1.1.0: Library and utility to talk to iBoot/iBSS via USB on
 app-pda/libplist 2.3.0: Support library to deal with Apple Property Lists (Binary & XML)
 app-pda/libtatsu 9999: Library handling the communication with Apple's Tatsu Signing Server (TSS).
 app-pda/usbmuxd 1.1.1-r1: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
-app-text/master-pdf-editor 5.7.60 5.9.35: A complete solution for viewing and editing PDF files
+app-text/master-pdf-editor 5.7.60 5.9.35 5.9.94: A complete solution for viewing and editing PDF files
 app-text/mupdf 1.24.9 1.25.4: A lightweight PDF viewer and toolkit written in portable C
 dev-cpp/atkmm 2.36.2-r1: C++ interface for the ATK library
 dev-cpp/cpprest 2.10.18: REST SDK using an asynchronous C++ API design
@@ -48,6 +48,57 @@ dev-python/persistent 6.0: This package contains a generic persistence implement
 dev-python/pymupdf 1.24.9 1.25.2 1.25.4: High performance Python library for data extraction, analysis, conversion & manipulation of PDF
 dev-python/rapidjson 1.20: Python wrapper around rapidjson
 dev-python/ravel 2.0.1: Python's first meta-framework
+dev-qt/designer 5.15.16: WYSIWYG tool for designing and building graphical user interfaces with QtWidgets
+dev-qt/linguist-tools 5.15.16: Tools for working with Qt translation data files
+dev-qt/qt3d 5.15.16: 3D rendering module for the Qt5 framework
+dev-qt/qtcharts 5.15.16: Chart component library for the Qt5 framework
+dev-qt/qtchooser 66-r2: Tool to quickly switch between multiple Qt installations
+dev-qt/qtconcurrent 5.15.16: Multi-threading concurrence support library for the Qt5 framework
+dev-qt/qtcore 5.15.16: Cross-platform application development framework
+dev-qt/qtdatavis3d 5.15.16: 3D data visualization library for the Qt5 framework
+dev-qt/qtdbus 5.15.16: Qt5 module for inter-process communication over the D-Bus protocol
+dev-qt/qtdeclarative 5.15.16: The QML and Quick modules for the Qt5 framework
+dev-qt/qtdiag 5.15.16: Tool for reporting diagnostic information about Qt and its environment
+dev-qt/qtgamepad 5.15.16: Qt module to support gamepad hardware
+dev-qt/qtgraphicaleffects 5.15.16: Set of QML types for adding visual effects to user interfaces
+dev-qt/qtgui 5.15.16: The GUI module and platform plugins for the Qt5 framework
+dev-qt/qthelp 5.15.16: Qt5 module for integrating online documentation into applications
+dev-qt/qtimageformats 5.15.16: Additional format plugins for the Qt image I/O system
+dev-qt/qtlocation 5.15.16-r1: Location (places, maps, navigation) library for the Qt5 framework
+dev-qt/qtlockedfile 2.4.1_p20171024: QFile extension with advisory locking functions
+dev-qt/qtmultimedia 5.15.16: Multimedia (audio, video, radio, camera) library for the Qt5 framework
+dev-qt/qtnetwork 5.15.16: Network abstraction library for the Qt5 framework
+dev-qt/qtnetworkauth 5.15.16: Network authorization library for the Qt5 framework
+dev-qt/qtopengl 5.15.16: OpenGL support library for the Qt5 framework (deprecated)
+dev-qt/qtpaths 5.15.16: Command line client to QStandardPaths
+dev-qt/qtplugininfo 5.15.16: Qt5 plugin metadata dumper
+dev-qt/qtpositioning 5.15.16: Physical position determination library for the Qt5 framework
+dev-qt/qtprintsupport 5.15.16: Printing support library for the Qt5 framework
+dev-qt/qtquickcontrols 5.15.16: Set of Qt Quick controls to create complete user interfaces (deprecated)
+dev-qt/qtquickcontrols2 5.15.16: Set of next generation Qt Quick controls for the Qt5 framework
+dev-qt/qtquicktimeline 5.15.16: Qt module for keyframe-based timeline construction
+dev-qt/qtscript 5.15.16: Application scripting library for the Qt5 framework (deprecated)
+dev-qt/qtscxml 5.15.16: State Chart XML (SCXML) support library for the Qt5 framework
+dev-qt/qtsensors 5.15.16: Hardware sensor access library for the Qt5 framework
+dev-qt/qtserialbus 5.15.16: Qt module to access CAN, ModBus, and other industrial serial buses and protocols
+dev-qt/qtserialport 5.15.16: Serial port abstraction library for the Qt5 framework
+dev-qt/qtsingleapplication 2.6.1_p20171024: Qt library to start applications only once per user
+dev-qt/qtspeech 5.15.16: Text-to-speech library for the Qt5 framework
+dev-qt/qtsql 5.15.16: SQL abstraction library for the Qt5 framework
+dev-qt/qtsvg 5.15.16: SVG rendering library for the Qt5 framework
+dev-qt/qttest 5.15.16: Unit testing library for the Qt5 framework
+dev-qt/qttranslations 5.15.16: Translation files for the Qt5 framework
+dev-qt/qtvirtualkeyboard 5.15.16: Customizable input framework and virtual keyboard for Qt
+dev-qt/qtwayland 5.15.16-r1: Wayland platform plugin for Qt
+dev-qt/qtwaylandscanner 5.15.16: Tool that generates certain boilerplate C++ code from Wayland protocol xml spec
+dev-qt/qtwebchannel 5.15.16: Qt5 module for integrating C++ and QML applications with HTML/JavaScript clients
+dev-qt/qtwebengine 5.15.16_p20241115: Library for rendering dynamic web content in Qt5 C++ and QML applications
+dev-qt/qtwebsockets 5.15.16: Implementation of the WebSocket protocol for the Qt5 framework
+dev-qt/qtwebview 5.15.16: Module for displaying web content in a QML application using the Qt5 framework
+dev-qt/qtwidgets 5.15.16: Set of components for creating classic desktop-style UIs for the Qt5 framework
+dev-qt/qtx11extras 5.15.16: Linux/X11-specific support library for the Qt5 framework
+dev-qt/qtxml 5.15.16: Implementation of SAX and DOM for the Qt5 framework
+dev-qt/qtxmlpatterns 5.15.16: XPath, XQuery, XSLT, and XML Schema validation library for the Qt5 framework
 dev-util/binaryninja 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/binaryninja-personal 9999: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 dev-util/clion 2023.3.4 2024.2.3: A complete toolset for C and C++ development
@@ -58,8 +109,10 @@ dev-util/idea-ultimate 2021.3.1: A complete toolset for C and C++ development
 dev-util/ioninja 5.6.0: All-in-one terminal, sniffer and protocol analyzer
 dev-util/maskromtool 2023.07.20 9999: Little CAD tool for taking photographs of a mask ROMs and extracting the bits
 dev-util/mplab-x 6.20: MPLAB X Integrated Development Environment (IDE) from Microchip
+dev-util/phpstorm 2025.2.1: The PHP IDE that makes you productive
 dev-util/pycharm-professional 2024.2.4: Intelligent Python IDE with unique code assistance and analysis
 dev-util/reveng 3.0.5: Arbitrary-precision CRC calculator and algorithm finder
+dev-util/rider 2025.2.1: Leading cross-platform IDE for .NET and game developers
 games-simulation/openrct2 0.4.5: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
 gui-apps/ags 1.4.0 1.8.2: A customizable and extensible shell
 gui-apps/anyrun 230819 231010: A wayland native krunner-like runner, made with customizability in mind
@@ -73,11 +126,13 @@ media-plugins/calf 0.90.3-r1: A set of open source instruments and effects for d
 media-plugins/live 2021.08.24: Libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 media-sound/helvum 0.3.2: Helvum is a GTK-based patchbay for pipewire, inspired by the JACK tool catia.
 media-video/lightworks 9999: Lightworks is the fastest, most accessible and focused NLE in the industry
+media-video/miraclecast 20250929: Connect external monitors to your system via Wifi-Display specification also known as Miracast
 net-dialup/ppp 2.5.0-r3: Point-to-Point Protocol (PPP)
 net-im/purple-googlechat 0_p20220616: Hangouts GoogleChat for libpurple
 net-libs/libssh2 1.11.0-r1: Library implementing the SSH2 protocol
 net-libs/webkit-gtk 2.48.3-r410: Open source web browser engine
 net-misc/netproc 0.6.2: Tool to monitor network traffic based on processes
+net-misc/onthespot 0.5: qt based music downloader written in python
 net-proxy/burpsuite-pro 2024.3.1.4: Interactive proxy for attacking and debugging web applications
 net-vpn/openvpn 2.6.4: Robust and highly flexible tunneling application compatible with many OSes
 net-vpn/snxwrapper 0.1.1 0.1.4 0.1.5: Tool created for effortless and automated connection to CheckPoint's SNX VPN.

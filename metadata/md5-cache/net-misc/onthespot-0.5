@@ -1,0 +1,15 @@
+BDEPEND=dev-python/certifi dev-python/charset-normalizer dev-python/defusedxml dev-python/idna dev-python/ifaddr dev-python/librespot dev-python/music-tag dev-python/mutagen dev-python/packaging dev-python/pillow dev-python/protobuf dev-python/pycryptodomex dev-python/PyOgg dev-python/pyqt5 dev-python/pyqt5-sip dev-python/pyxdg dev-python/requests dev-python/show-in-file-manager dev-python/urllib3 dev-python/websocket-client dev-python/zeroconf dev-python/setuptools[python_targets_python3_11(-)?] media-video/ffmpeg python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/gpep517-16[python_targets_python3_11(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=qt based music downloader written in python
+EAPI=8
+HOMEPAGE=https://github.com/casualsnek/onthespot
+INHERIT=distutils-r1
+IUSE=python_targets_python3_11
+KEYWORDS=amd64 x86
+LICENSE=GPL-2.0
+RDEPEND=dev-python/pymysql[python_targets_python3_11(-)?] python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
+SLOT=0
+SRC_URI=https://github.com/casualsnek/onthespot/archive/refs/tags/v0.5.tar.gz -> onthespot-0.5.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	a199af442898963433d6f038a88cce9c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7eb9c3a6dc6662368634584aab44a2c	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	37143302bc375f4878f7b5f7497da8cc
+_md5_=9a48cee91b44d03691d2205372cb1b75
