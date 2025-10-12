@@ -11,5 +11,5 @@ LICENSE=|| ( GPL-2 GPL-3 ) LGPL-2.1+
 RDEPEND=acct-user/usbmux >=app-pda/libimobiledevice-1.3.0:= >=app-pda/libplist-2.2:= virtual/libusb:1= virtual/udev selinux? ( sec-policy/selinux-usbmuxd ) systemd? ( sys-apps/systemd )
 SLOT=0
 SRC_URI=https://github.com/libimobiledevice/usbmuxd/releases/download/1.1.1/usbmuxd-1.1.1.tar.bz2
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861	udev	f3d9a4376ebd22131726a68e1a0a058f
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	systemd	a964c0cbe818b5729da1dbfcee5be861	udev	f3d9a4376ebd22131726a68e1a0a058f
 _md5_=3936a3a7994f7e976ccf73300146882e
